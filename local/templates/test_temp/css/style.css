@@ -1,0 +1,135 @@
+div, table, a, img, p, ul, li, td, form, th {
+	margin:0 auto;
+	}
+
+a {
+	color: white;
+	text-decoration: none;
+	}
+
+input{
+	margin: 10px;
+	}
+
+form{
+	padding: 20px 50px;
+	color: white;
+	}
+
+.menu_item {
+	width:80px;
+	}
+
+#description {
+	list-style-image: url(../img/li.png); /* Путь к изображению маркера */
+	}
+
+#menu li {
+	width:310px;
+	text-align: center;
+	}
+
+#menu a {
+	width:270px;
+	text-align: center;
+	}
+   
+#box {
+	width:1280px;
+	}
+
+#header {
+	height:530px;
+	background-image: url(../img/header.png);
+	}
+
+#footer {
+	height:240px;
+	background-image: url(../img/footer.png);
+	}
+
+#leftbuff {
+	width:800px;
+	}
+
+#top_menu {
+	color: white;
+	height:100px;
+	}
+
+#Member_Login, #Subscribe {
+	font-size: 28px;
+	}
+
+#Subscribe {
+	background-color: #01d3f3;
+	}
+
+#Member_Login {
+	background-color: #e57523;
+	}
+
+#Subscribe {
+	background-color: #01d3f3;
+	}
+
+#SubscribeButton {
+	background-color: #029bb1;
+	}
+
+#footer_menu {
+	margin: 0;
+	width:500px;
+	text-align: center;
+	color: white;
+	}
+
+#footer_menu th{
+	padding-top: 30px;
+	}
+
+@media screen and (max-width: 1024px) {
+	#header {
+		height:420px;
+		background-image: url(../img/header1024.png);
+		}
+	#footer {
+		height:190px;
+		background-image: url(../img/footer1024.png);
+		}
+	#box {
+		width:1024px;
+		}
+	#leftbuff {
+		width:600px;
+		}
+	#menu li {
+		width:240px;
+		}
+	#menu a {
+		width:200px;
+		}
+}
+
+@media screen and (max-width: 800px) {
+	#header {
+		height:420px;
+		background-image: url(../img/header800.png);
+		}
+	#footer {
+		height:190px;
+		background-image: url(../img/footer800.png);
+		}
+	#box {
+		width:800px;
+		}
+	#leftbuff {
+		width:600px;
+		}
+	#menu li {
+		width:240px;
+		}
+	#menu a {
+		width:200px;
+		}
+}
